@@ -19,6 +19,8 @@ services:
     volumes:
       - grafana-data:/var/lib/grafana
     restart: unless-stopped
+    environment:
+      - GF_SECURITY_ALLOW_EMBEDDING=true
 
   nginx-exporter:
     image: nginx/nginx-prometheus-exporter:1.4.2

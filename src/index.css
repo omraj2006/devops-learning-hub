@@ -643,3 +643,61 @@ img {
     padding: 24px;
   }
 }
+
+/* Monitoring dashboard page */
+.monitoring-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.monitoring-card {
+  padding: 24px;
+}
+
+.monitoring-card svg {
+  color: var(--accent);
+}
+
+.monitoring-card h2 {
+  margin: 18px 0 10px;
+  font-size: 1.1rem;
+}
+
+.monitoring-card p,
+.monitoring-placeholder p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.monitoring-placeholder {
+  margin-top: 24px;
+  padding: 28px;
+}
+
+.monitoring-placeholder h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .monitoring-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grafana-frame {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.grafana-frame iframe {
+  display: block;
+  width: 100%;
+  min-height: 700px;
+  border: 0;
+}

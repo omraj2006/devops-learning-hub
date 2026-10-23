@@ -1,4 +1,4 @@
-
+﻿
 import { NavLink } from 'react-router-dom';
 import { Terminal } from 'lucide-react';
 
@@ -10,6 +10,7 @@ const links = [
   { name: 'Kubernetes', path: '/kubernetes' },
   { name: 'Prometheus', path: '/prometheus' },
   { name: 'Grafana', path: '/grafana' },
+  { name: 'Monitoring', path: '/monitoring' },
 ];
 
 function Navbar() {
@@ -45,3 +46,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
