@@ -11,11 +11,11 @@ function Footer() {
         </div>
 
         <p>
-          Learn the tools. Understand the pipeline. Build together.
+          Learn the tools. Understand the pipeline. Build together automatically.
         </p>
 
         <span className="footer-note">
-          Built as a collaborative learning project.
+          Built as a collaborative learning project for DOSS CIE 1.
         </span>
       </div>
     </footer>
