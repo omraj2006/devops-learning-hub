@@ -1,4 +1,4 @@
-# 🚀 DevOps Learning Hub
+# 🚀 DevOps Learning Hub (CIE-01)
 
 A beginner-friendly web platform designed to help students learn and understand essential DevOps tools through structured learning resources and practical demonstrations.
 
